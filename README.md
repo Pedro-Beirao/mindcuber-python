@@ -18,6 +18,7 @@ Save the file mindcuber-python.py in some place you can access easily.
 To run the program:
 ```
 $ python3 mindcuber-python CUBESTRING
+  #Instead of "mindcuber-python", write the full path of it
 ```
 
 See https://pypi.org/project/kociemba/ to understand what a Cubestring is
@@ -40,7 +41,7 @@ $ rubiks-cube-tracker.py --webcam 0
   # ^^^ this will print alot of things in the console. Look for something like BLBUUDRRFDRUURRRBRBBLLFRLLFUDDUDDDDUUFDLLULBFRBLFBFFFB
   
 $ python3 mindcuber-python BLBUUDRRFDRUURRRBRBBLLFRLLFUDDUDDDDUUFDLLULBFRBLFBFFFB
-  #Instead of "mindcuber-python", write the full path for it
+  #Instead of "mindcuber-python", write the full path of it
 ```
 
 You can also automate this. 
