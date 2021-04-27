@@ -24,11 +24,12 @@ Instead of using the color sensor of the ev3, I use https://github.com/dwalton76
 You will also need https://github.com/dwalton76/rubiks-color-resolver.
 
 ```
-$ rubiks-cube-tracker.py --webcam 0
-  # ^^^ this will print alot of things in the console. Look for something like BLBUUDRRFDRUURRRBRBBLLFRLLFUDDUDDDDUUFDLLULBFRBLFBFFFB
+$ pip install python-opencv
+  # ^^^ rubiks-cube-tracker uses opencv
   
-$ python3 mindcuber-python BLBUUDRRFDRUURRRBRBBLLFRLLFUDDUDDDDUUFDLLULBFRBLFBFFFB
-  #Instead of "mindcuber-python", write the full path for it
+$ pip install git+https://github.com/dwalton76/rubiks-cube-tracker.git
+
+$ pip install git+https://github.com/dwalton76/rubiks-color-resolver.git
 ```
 
 After installing those 2 packages, run the following:
