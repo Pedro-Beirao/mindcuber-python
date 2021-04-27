@@ -9,3 +9,10 @@ This program uses a library called "ev3-dc" (https://pypi.org/project/ev3-dc/).
 pip install ev3-dc
 ```
 
+The motor of the arm should connect to the A Port.
+The motor of the platform should connect to the B Port.
+
+To run the program:
+```
+python3 mindcuber-python CUBESTRING
+```
