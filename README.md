@@ -64,7 +64,7 @@ $ rubiks-cube-tracker.py --webcam 0
 
 This will get the colors and start resolving the cube.
 
-Pretty nice right?
+Pretty nice, right?
 
 
 Sorry I couldnt include this "automation" in this repo. Im new to github and this is really weird.
