@@ -13,6 +13,8 @@ pip install kociemba
 The motor of the arm should connect to the A Port.
 The motor of the platform should connect to the B Port.
 
+Save the file mindcuber-python.py in some place you can access easily.
+
 To run the program:
 ```
 $ python3 mindcuber-python CUBESTRING
