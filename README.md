@@ -55,4 +55,6 @@ $ rubiks-cube-tracker.py --webcam 0
 
 Sorry I couldnt include this "automation" in this repo. Im new to github and this is really weird.
 
+Any questions, just open up an *issue*. I'll anwser at fast as possible.
+
 Hope this helped :)
