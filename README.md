@@ -25,10 +25,13 @@ Follow the exact instruction for this package. You will need both https://github
 
 After installing those 3 packages, run the following:
 ```
+$ cd ~/rubiks-cube-NxNxN-solver
+$ source ./venv/bin/activate
 $ rubiks-cube-tracker.py --webcam 0
   # ^^^ this will print alot of things in the console. Look for something like BLBUUDRRFDRUURRRBRBBLLFRLLFUDDUDDDDUUFDLLULBFRBLFBFFFB
   
 $ python3 mindcuber-python BLBUUDRRFDRUURRRBRBBLLFRLLFUDDUDDDDUUFDLLULBFRBLFBFFFB
+  #Instead of "mindcuber-python", write the full path for it
 ```
 
 You can also automate this. 
