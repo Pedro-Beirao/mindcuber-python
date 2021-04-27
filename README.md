@@ -47,6 +47,11 @@ subprocess.Popen("python3 path_to_mindcuber-python.py " + kociemba_string, shell
 
 <img width="852" alt="Screenshot 2021-04-27 at 17 05 31" src="https://user-images.githubusercontent.com/82064173/116274671-c81b1980-a77a-11eb-8cf1-6325ce6b7a07.png">
 
+6. Just run:
+
+```
+$ rubiks-cube-tracker.py --webcam 0
+```
 
 Sorry I couldnt include this "automation" in this repo. Im new to github and this is really weird.
 
