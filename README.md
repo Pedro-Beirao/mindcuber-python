@@ -22,7 +22,8 @@ See https://pypi.org/project/kociemba/ to understand what a Cubestring is
 
 Instead of using the color sensor of the ev3, I use https://github.com/dwalton76/rubiks-cube-tracker to get the cubestring. This is faster and more reliable.
 Follow the exact instruction for this package. You will need both https://github.com/dwalton76/rubiks-color-resolver and https://github.com/dwalton76/rubiks-cube-NxNxN-solver. As described on the readme.md.
-This will get you the cubestring.
+
+After installing those 3 packages, run the following:
 ```
 $ rubiks-cube-tracker.py --webcam 0
   # ^^^ this will print alot of things in the console. Look for something like BLBUUDRRFDRUURRRBRBBLLFRLLFUDDUDDDDUUFDLLULBFRBLFBFFFB
