@@ -15,9 +15,23 @@ The motor of the platform should connect to the B Port.
 
 To run the program:
 ```
-python3 mindcuber-python CUBESTRING
+$ python3 mindcuber-python CUBESTRING
 ```
 
 See https://pypi.org/project/kociemba/ to understand what a Cubestring is
 
 Instead of using the color sensor of the ev3, I use https://github.com/dwalton76/rubiks-cube-tracker to get the cubestring. This is faster and more reliable.
+Follow the exact instruction for this package. You will need both https://github.com/dwalton76/rubiks-color-resolver and https://github.com/dwalton76/rubiks-cube-NxNxN-solver. As described on the readme.md.
+This will get you the cubestring.
+```
+$ rubiks-cube-tracker.py --webcam 0
+  # ^^^ this will print alot of things in the console. Look for something like BLBUUDRRFDRUURRRBRBBLLFRLLFUDDUDDDDUUFDLLULBFRBLFBFFFB
+  
+$ python3 mindcuber-python BLBUUDRRFDRUURRRBRBBLLFRLLFUDDUDDDDUUFDLLULBFRBLFBFFFB
+```
+
+You can also automate this. 
+1. Go to **site-packages** of your version of python (mine is here: /lib/python3.9/site-packages/).
+2. Open the folder "rubikscubetracker"
+3. Open __init__.py
+4. 
