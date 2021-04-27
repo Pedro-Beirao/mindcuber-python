@@ -25,6 +25,8 @@ $ python3 mindcuber-python CUBESTRING
 
 See https://pypi.org/project/kociemba/ to understand what a Cubestring is
 
+## Color detection
+
 Instead of using the color sensor of the ev3, I use https://github.com/dwalton76/rubiks-cube-tracker to get the cubestring. This is faster and more reliable.
 You will also need https://github.com/dwalton76/rubiks-color-resolver.
 
