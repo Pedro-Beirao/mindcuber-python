@@ -27,6 +27,7 @@ After installing those 3 packages, run the following:
 ```
 $ cd ~/rubiks-cube-NxNxN-solver
 $ source ./venv/bin/activate
+
 $ rubiks-cube-tracker.py --webcam 0
   # ^^^ this will print alot of things in the console. Look for something like BLBUUDRRFDRUURRRBRBBLLFRLLFUDDUDDDDUUFDLLULBFRBLFBFFFB
   
