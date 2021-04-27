@@ -47,7 +47,7 @@ $ python3 mindcuber-python BLBUUDRRFDRUURRRBRBBLLFRLLFUDDUDDDDUUFDLLULBFRBLFBFFF
 You can also automate this. 
 1. Go to **site-packages** of your version of python (mine is here: /lib/python3.9/site-packages/).
 2. Open the folder "rubikscubetracker"
-3. Open /__init/__.py
+3. Open \__init\__.py
 4. Search for "kociemba_string"
 <img width="783" alt="Screenshot 2021-04-27 at 17 03 15" src="https://user-images.githubusercontent.com/82064173/116274326-796d7f80-a77a-11eb-9296-4f65b016f07a.png">
 5. Add the following:
