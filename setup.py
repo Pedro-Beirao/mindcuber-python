@@ -9,7 +9,7 @@ setup(
     url="https://github.com/PBeGood4/mindcuber-python",
     author="PBeGood4",
     author_email="pedrocbeirao@gmail.com",
-    license="GNU",
+    license="GNU GPL",
     scripts=["usr/bin/rubik.py"],
     packages=["ev3cubetracker"],
 )
