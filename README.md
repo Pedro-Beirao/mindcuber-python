@@ -1,5 +1,5 @@
 # Mindcuber-Python
-A program written in python that solves a Rubik's cube with a ev3 Mindstorms, without needing a SD card.
+A program written in python(3.9) that solves a Rubik's cube with a ev3 Mindstorms, without needing a SD card.
 
 Very easy to setup. Just follow the steps.
 
