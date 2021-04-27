@@ -42,3 +42,5 @@ You can also automate this.
 4. Search for "shell"
 <img width="936" alt="Screenshot 2021-04-27 at 16 41 39" src="https://user-images.githubusercontent.com/82064173/116270967-7d4bd280-a777-11eb-9558-872f02b461e4.png">
 5. Make the following changes:
+  - Delete "/usr/bin" from the "cmd" string (dont know why that was there by default)
+  - 
