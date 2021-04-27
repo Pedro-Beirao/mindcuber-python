@@ -25,9 +25,6 @@ Follow the exact instruction for this package. You will need both https://github
 
 After installing those 3 packages, run the following:
 ```
-$ cd ~/rubiks-cube-NxNxN-solver
-$ source ./venv/bin/activate
-
 $ rubiks-cube-tracker.py --webcam 0
   # ^^^ this will print alot of things in the console. Look for something like BLBUUDRRFDRUURRRBRBBLLFRLLFUDDUDDDDUUFDLLULBFRBLFBFFFB
   
@@ -39,8 +36,8 @@ You can also automate this.
 1. Go to **site-packages** of your version of python (mine is here: /lib/python3.9/site-packages/).
 2. Open the folder "rubikscubetracker"
 3. Open __init__.py
-4. Search for "shell"
-<img width="936" alt="Screenshot 2021-04-27 at 16 41 39" src="https://user-images.githubusercontent.com/82064173/116270967-7d4bd280-a777-11eb-9558-872f02b461e4.png">
+4. Search for "kociemba_string"
+<img width="783" alt="Screenshot 2021-04-27 at 17 03 15" src="https://user-images.githubusercontent.com/82064173/116274326-796d7f80-a77a-11eb-9296-4f65b016f07a.png">
 5. Make the following changes:
   - Delete "/usr/bin" from the "cmd" string (dont know why that was there by default)
   - 
