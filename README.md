@@ -48,7 +48,8 @@ $ python3 mindcuber-python BLBUUDRRFDRUURRRBRBBLLFRLLFUDDUDDDDUUFDLLULBFRBLFBFFF
   #Instead of "mindcuber-python", write the full path of it
 ```
 
-## Automating color detection/solving cube
+## Automating color detection / solving cube
+
 1. Go to **site-packages** of your version of python (mine is here: /lib/python3.9/site-packages/).
 2. Open the folder "rubikscubetracker"
 3. Open \__init\__.py
