@@ -65,7 +65,7 @@ subprocess.Popen("python3 path_to_mindcuber-python.py " + kociemba_string, shell
 $ rubiks-cube-tracker.py --webcam 0
 ```
 
-This will get the colors and start resolving the cube.
+This will get the colors and start solving the cube.
 
 Pretty nice, right?
 
