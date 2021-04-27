@@ -39,7 +39,7 @@ $ pip install git+https://github.com/dwalton76/rubiks-cube-tracker.git
 $ pip install git+https://github.com/dwalton76/rubiks-color-resolver.git
 ```
 
-After installing those 2 packages, run the following:
+After installing those packages, run the following:
 ```
 $ rubiks-cube-tracker.py --webcam 0
   # ^^^ this will print alot of things in the console. Look for something like BLBUUDRRFDRUURRRBRBBLLFRLLFUDDUDDDDUUFDLLULBFRBLFBFFFB
@@ -48,7 +48,7 @@ $ python3 mindcuber-python BLBUUDRRFDRUURRRBRBBLLFRLLFUDDUDDDDUUFDLLULBFRBLFBFFF
   #Instead of "mindcuber-python", write the full path of it
 ```
 
-You can also automate this. 
+## Automating color detection/solving cube
 1. Go to **site-packages** of your version of python (mine is here: /lib/python3.9/site-packages/).
 2. Open the folder "rubikscubetracker"
 3. Open \__init\__.py
