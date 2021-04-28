@@ -70,6 +70,7 @@ Instead of getting the cubestring and then running "mindcuber-python.py" with it
 ```python3
 import subprocess
 subprocess.Popen("python3 path_to_mindcuber-python.py " + kociemba_string, shell=True)
+                            #^^^ again, write the full path
 ```
 
 <img width="852" alt="Screenshot 2021-04-27 at 17 05 31" src="https://user-images.githubusercontent.com/82064173/116274671-c81b1980-a77a-11eb-8cf1-6325ce6b7a07.png">
