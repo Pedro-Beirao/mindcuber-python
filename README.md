@@ -27,7 +27,7 @@ Save the file mindcuber-python.py in some place you can access easily.
 
 To run the program:
 ```
-$ python3 mindcuber-python CUBESTRING
+$ python3 mindcuber-python.py CUBESTRING
   #Instead of "mindcuber-python", write the full path of it
 ```
 
@@ -52,11 +52,13 @@ After installing those packages, run the following:
 $ rubiks-cube-tracker.py --webcam 0
   # ^^^ this will print alot of things in the console. Look for something like BLBUUDRRFDRUURRRBRBBLLFRLLFUDDUDDDDUUFDLLULBFRBLFBFFFB
   
-$ python3 mindcuber-python BLBUUDRRFDRUURRRBRBBLLFRLLFUDDUDDDDUUFDLLULBFRBLFBFFFB
+$ python3 mindcuber-python.py BLBUUDRRFDRUURRRBRBBLLFRLLFUDDUDDDDUUFDLLULBFRBLFBFFFB
   #Instead of "mindcuber-python", write the full path of it
 ```
 
 ## Automating color detection / solving cube
+
+Instead of getting the cubestring and then running "mindcuber-python.py" with it, we can automate it:
 
 1. Go to **site-packages** of your version of python (mine is here: /lib/python3.9/site-packages/).
 2. Open the folder "rubikscubetracker"
