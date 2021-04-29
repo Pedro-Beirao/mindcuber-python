@@ -5,6 +5,13 @@ Very easy to setup. Just follow the steps.
 
 You need to build the mindcuber robot. The "MindCub3r-v1p0.pdf" file has the building instructions (You can also find them  at https://www.mindcuber.com).
 
+The motor of the arm should connect to the A Port.
+The motor of the platform should connect to the B Port.
+
+See this to connect your pc with the ev3. (Bluetooh does not work for MacOS)
+
+https://ev3-dc.readthedocs.io/en/latest/examples_ev3.html#connect-with-the-ev3-device
+
 ### Table of contents
 1. Installation
 2. Automatic setup
@@ -25,9 +32,6 @@ $ pip install python-opencv
 $ pip install git+https://github.com/dwalton76/rubiks-cube-tracker.git
 $ pip install git+https://github.com/dwalton76/rubiks-color-resolver.git
 ```
-
-The motor of the arm should connect to the A Port.
-The motor of the platform should connect to the B Port.
 
 To run the program:
 ```
