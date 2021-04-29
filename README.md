@@ -32,7 +32,8 @@ The motor of the platform should connect to the B Port.
 To run the program:
 ```
 $ python3 mindcuber-python.py CUBESTRING
-  #Instead of "mindcuber-python", write the full path of it
+  # Use one of the Setups to get the CUBESTRING
+  # Instead of "mindcuber-python", write the full path of it
 ```
 
 See https://pypi.org/project/kociemba/ to understand what a Cubestring is
@@ -47,9 +48,12 @@ Just run:
 
 ```
 $ python3 setup.py
+  #^^^ Instead of setup.py, write the full path of it
 ```
 
-
+If it returns 'Setup sucessful':
+MacOS / Linux - `$ rubik.py `
+Windows - `$ rubiks-cube-tracker.py --webcam 0`
 ## Color detection
 
 Instead of using the color sensor of the ev3, I use https://github.com/dwalton76/rubiks-cube-tracker to get the cubestring. This is faster and more reliable.
