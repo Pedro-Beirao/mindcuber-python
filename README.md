@@ -10,18 +10,20 @@ You need to build the mindcuber robot. The "MindCub3r-v1p0.pdf" file has the bui
 2. Automatic setup
 3. Manual setup (Use this if automatic fails)
 
-### Table of contents
-
-1. Color detection
-2. Automating color detection / solving cube
-
 ## Installation
 
-This program uses a library called "ev3-dc" (https://pypi.org/project/ev3-dc/) and uses Kociemba (https://pypi.org/project/kociemba/).
+This program uses a library called "ev3-dc" (https://pypi.org/project/ev3-dc/) and uses Kociemba (https://pypi.org/project/kociemba/). Instead of using the color sensor of the ev3, It uses https://github.com/dwalton76/rubiks-cube-tracker to get the cubestring. This is faster and more reliable.
+You will also need https://github.com/dwalton76/rubiks-color-resolver. 
 
 ```
 pip install ev3-dc
 pip install kociemba
+$ pip install python-opencv
+  # ^^^ rubiks-cube-tracker uses opencv
+  
+$ pip install git+https://github.com/dwalton76/rubiks-cube-tracker.git
+
+$ pip install git+https://github.com/dwalton76/rubiks-color-resolver.git
 ```
 
 The motor of the arm should connect to the A Port.
