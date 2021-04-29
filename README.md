@@ -29,8 +29,6 @@ $ pip install git+https://github.com/dwalton76/rubiks-color-resolver.git
 The motor of the arm should connect to the A Port.
 The motor of the platform should connect to the B Port.
 
-Save the file mindcuber-python.py in some place you can access easily.
-
 To run the program:
 ```
 $ python3 mindcuber-python.py CUBESTRING
@@ -38,6 +36,19 @@ $ python3 mindcuber-python.py CUBESTRING
 ```
 
 See https://pypi.org/project/kociemba/ to understand what a Cubestring is
+
+## Automatic setup
+
+Instead of getting the cubestring by hand, use setup.py to automate it.
+
+Make sure that **setup.py, mindcuber-python.py, init.py** and **rubik.py** are in the same folder.
+
+Just run:
+
+```
+$ python3 setup.py
+```
+
 
 ## Color detection
 
