@@ -18,11 +18,11 @@ You will also need https://github.com/dwalton76/rubiks-color-resolver.
 ```
 pip install ev3-dc
 pip install kociemba
+
 $ pip install python-opencv
   # ^^^ rubiks-cube-tracker uses opencv
   
 $ pip install git+https://github.com/dwalton76/rubiks-cube-tracker.git
-
 $ pip install git+https://github.com/dwalton76/rubiks-color-resolver.git
 ```
 
