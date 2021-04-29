@@ -43,7 +43,7 @@ Instead of getting the cubestring by hand, use setup.py to automate it.
 
 Make sure that **setup.py, mindcuber-python.py, init.py** and **rubik.py** are in the same folder.
 
-**Just run setuop.py (with admin/root privileges):**
+**Just run setup.py (with admin/root privileges):**
 
 MacOS / Linux:
 ```
