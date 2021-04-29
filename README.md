@@ -44,14 +44,22 @@ Instead of getting the cubestring by hand, use setup.py to automate it.
 
 Make sure that **setup.py, mindcuber-python.py, init.py** and **rubik.py** are in the same folder.
 
-Just run:
+**Just run setuop.py (with admin/root privileges):**
 
+MacOS / Linux:
 ```
+$ sudo python3 setup.py
+  #^^^ Instead of setup.py, write the full path of it
+```
+
+Windows:
+```
+  # Open CMD as admin (Just google if you dont know how)
 $ python3 setup.py
   #^^^ Instead of setup.py, write the full path of it
 ```
 
-If it returns 'Setup sucessful':
+**If it returns 'Setup sucessful':**
 
 MacOS / Linux - `$ rubik.py `
 
@@ -59,7 +67,7 @@ Windows - `$ rubiks-cube-tracker.py --webcam 0`
 
 ## Manual setup (Uses this if automatic fails)
 
-**You need admin/root rights for this**
+**You need admin/root privileges for this (Unless your python environment is local)**
 
 Run:
 
