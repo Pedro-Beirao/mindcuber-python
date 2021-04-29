@@ -57,21 +57,12 @@ MacOS / Linux - `$ rubik.py `
 
 Windows - `$ rubiks-cube-tracker.py --webcam 0`
 
-## Color detection
+## Manual setup (Uses this if automatic fails)
 
-Instead of using the color sensor of the ev3, I use https://github.com/dwalton76/rubiks-cube-tracker to get the cubestring. This is faster and more reliable.
-You will also need https://github.com/dwalton76/rubiks-color-resolver.
+**You need admin/root rights for this**
 
-```
-$ pip install python-opencv
-  # ^^^ rubiks-cube-tracker uses opencv
-  
-$ pip install git+https://github.com/dwalton76/rubiks-cube-tracker.git
+Run:
 
-$ pip install git+https://github.com/dwalton76/rubiks-color-resolver.git
-```
-
-After installing those packages, run the following:
 ```
 $ rubiks-cube-tracker.py --webcam 0
   # ^^^ this will print alot of things in the console. Look for something like BLBUUDRRFDRUURRRBRBBLLFRLLFUDDUDDDDUUFDLLULBFRBLFBFFFB
@@ -80,9 +71,8 @@ $ python3 mindcuber-python.py BLBUUDRRFDRUURRRBRBBLLFRLLFUDDUDDDDUUFDLLULBFRBLFB
   #Instead of "mindcuber-python", write the full path of it
 ```
 
-## Automating color detection / solving cube
+This is fine, but not good enough. Let's automate it!
 
-Instead of getting the cubestring and then running "mindcuber-python.py" with it, we can automate it:
 
 1. Go to **site-packages** of your version of python (mine is here: /lib/python3.9/site-packages/).
 2. Open the folder "rubikscubetracker"
