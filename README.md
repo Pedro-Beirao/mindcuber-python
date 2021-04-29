@@ -37,15 +37,6 @@ $ pip install git+https://github.com/dwalton76/rubiks-cube-tracker.git
 $ pip install git+https://github.com/dwalton76/rubiks-color-resolver.git
 ```
 
-To run the program:
-```
-$ python3 mindcuber-python.py CUBESTRING
-  # Use one of the Setups to get the CUBESTRING
-  # Instead of "mindcuber-python", write the full path of it
-```
-
-See https://pypi.org/project/kociemba/ to understand what a Cubestring is
-
 ## Automatic setup
 
 Instead of getting the cubestring by hand, use setup.py to automate it.
