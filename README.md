@@ -17,7 +17,7 @@ See this to connect your pc with the ev3 (Bluetooh does not work for MacOS) - ht
 
 ## Installation
 
-**Before installing the dependecies. Open 'mindcuber-python.py', on `ev3.EV3(protocol=ev3.USB, host='00:16:53:3D:F8:DF')`**
+**Before installing the dependecies. Open 'mindcuber-python.py', on `ev3Device = ev3.EV3(protocol=ev3.USB, host='00:16:53:3D:F8:DF')`**
 
 **Change `ev3.USB` To the protocol you want: `ev3.USB`, `ev3.BLUETOOTH` or `ev3.WIFI`** (I strongly recommend USB)
 
