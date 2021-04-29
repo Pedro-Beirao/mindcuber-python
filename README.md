@@ -52,8 +52,11 @@ $ python3 setup.py
 ```
 
 If it returns 'Setup sucessful':
+
 MacOS / Linux - `$ rubik.py `
+
 Windows - `$ rubiks-cube-tracker.py --webcam 0`
+
 ## Color detection
 
 Instead of using the color sensor of the ev3, I use https://github.com/dwalton76/rubiks-cube-tracker to get the cubestring. This is faster and more reliable.
