@@ -9,7 +9,7 @@ The motor of the arm should connect to the A Port.
 The motor of the platform should connect to the B Port.
 
 See this to connect your pc with the ev3 (Bluetooh does not work for MacOS) - https://ev3-dc.readthedocs.io/en/latest/examples_ev3.html#connect-with-the-ev3-device
-
+(I strongly recommend USB)
 ### Table of contents
 1. Installation
 2. Automatic setup
