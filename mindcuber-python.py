@@ -1,23 +1,28 @@
+#!/usr/bin/env python
+
 import ev3_dc as ev3
 import time
 import kociemba
+#projeto kociemba https://pypi.org/project/kociemba/
 import sys
-#kociemba project https://pypi.org/project/kociemba/
+import os
+import subprocess
+import rubikscubetracker
 
-#cubestring that the robor will solve
+
+
+#cubestring that the robot will solve
 kociembaStr = sys.argv[1]
-
 print("input  "+kociembaStr)
-
 timeItTakes = time.time()
-
 print("solve  "+kociemba.solve(kociembaStr))
-
 #wait time to put the cube up on the platform
 time.sleep(5)
 
-rotate = ev3.Motor(ev3.PORT_A, protocol=ev3.USB, host='00:16:53:3D:F8:DF')            #big motor (arm)
-turnn = ev3.Motor(ev3.PORT_B, protocol=ev3.USB, host='00:16:53:3D:F8:DF')              #big motor (platform)
+ev3device = ev3.EV3(protocol=ev3.USB, host='00:16:53:3D:F8:DF')  
+
+rotate = ev3.Motor(ev3.PORT_A, ev3_obj=ev3device)            #big motor (arm)
+turnn = ev3.Motor(ev3.PORT_A, ev3_obj=ev3device)              #big motor (platform)
 
 
 def wait():
