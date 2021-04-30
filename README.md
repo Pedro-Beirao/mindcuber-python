@@ -31,7 +31,7 @@ $ pip install git+https://github.com/dwalton76/rubiks-cube-tracker.git
 $ pip install git+https://github.com/dwalton76/rubiks-color-resolver.git
 ```
 
-**Before installing the dependecies. Open 'mindcuber-python.py', on `ev3Device = ev3.EV3(protocol=ev3.USB, host='00:16:53:3D:F8:DF')`**
+**Before setting up. Open 'mindcuber-python.py', go to `ev3Device = ev3.EV3(protocol=ev3.USB, host='00:16:53:3D:F8:DF')`**
 
 **Change `ev3.USB` To the protocol you want: `ev3.USB`, `ev3.BLUETOOTH` or `ev3.WIFI`** (I strongly recommend USB)
 
