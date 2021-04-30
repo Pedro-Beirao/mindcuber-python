@@ -65,6 +65,10 @@ MacOS / Linux - `$ rubik.py `
 
 Windows - `$ rubiks-cube-tracker.py --webcam 0`
 
+**If it returns 'Setup failed':**
+
+Try the maunal setup. Don't be afraid to open an *issue*.
+
 ## Manual setup (Uses this if automatic fails)
 
 **You need admin/root privileges for this (Unless your python environment is local)**
