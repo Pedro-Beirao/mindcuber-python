@@ -112,8 +112,6 @@ This will get the colors and start solving the cube.
 Pretty nice, right?
 
 
-Sorry I couldnt include this "automation" in this repo. Im new to github and it is really weird.
-
 Any questions, just open up an *issue*. I'll anwser as fast as possible.
 
 Hope this helped :)
