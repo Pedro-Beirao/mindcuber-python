@@ -21,8 +21,8 @@ This program uses a library called "ev3-dc" (https://pypi.org/project/ev3-dc/) a
 You will also need https://github.com/dwalton76/rubiks-color-resolver. 
 
 ```
-pip install ev3_dc
-pip install kociemba
+$ pip install ev3_dc
+$ pip install kociemba
 
 $ pip install python-opencv
   # ^^^ rubiks-cube-tracker uses opencv
