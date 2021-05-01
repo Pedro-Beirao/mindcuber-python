@@ -110,7 +110,21 @@ $ python3 mindcuber-python.py BLBUUDRRFDRUURRRBRBBLLFRLLFUDDUDDDDUUFDLLULBFRBLFB
 This is fine, but not good enough. Let's automate it!
 
 
-1. Go to **site-packages** of your version of python ( (mine is here: /lib/python3.9/site-packages/).
+1. Go to **site-packages** of your version of python.
+```
+# Linux
+$ python3 -c "import sysconfig; print(sysconfig.get_path('purelib'))"
+/usr/local/lib/python3.8/site-packages
+
+# macOS (brew installed python3.8)
+$ python3 -c "import sysconfig; print(sysconfig.get_path('purelib'))"
+/usr/local/Cellar/python@3.8/3.8.3/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages
+
+# Windows
+C:\> py -c "import sysconfig; print(sysconfig.get_path('purelib'))"
+C:\Users\wim\AppData\Local\Programs\Python\Python38\Lib\site-packages
+```
+
 2. Open the folder "rubikscubetracker"
 3. Open \__init\__.py
 4. Search for "kociemba_string"
