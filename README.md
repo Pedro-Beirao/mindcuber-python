@@ -110,7 +110,7 @@ $ python3 mindcuber-python.py BLBUUDRRFDRUURRRBRBBLLFRLLFUDDUDDDDUUFDLLULBFRBLFB
 This is fine, but not good enough. Let's automate it!
 
 
-1. Go to **site-packages** of your version of python.
+1. Go to **site-packages** of your version of python (The commands bellow should help you find it).
 ```
 # Linux
 $ python3 -c "import sysconfig; print(sysconfig.get_path('purelib'))"
