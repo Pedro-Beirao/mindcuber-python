@@ -81,13 +81,13 @@ $ python3 setup.py
 ```
 
 
-***If it returns 'Setup sucessful':**
+**If it returns 'Setup sucessful':**
 
 MacOS / Linux - `$ rubik.py `
 
 Windows - `$ rubiks-cube-tracker.py --webcam 0`
 
-***If it returns 'Setup failed':**
+**If it returns 'Setup failed':**
 
 Try the manual setup. Don't be afraid to open an *issue*.
 
@@ -110,7 +110,7 @@ $ python3 mindcuber-python.py BLBUUDRRFDRUURRRBRBBLLFRLLFUDDUDDDDUUFDLLULBFRBLFB
 This is fine, but not good enough. Let's automate it!
 
 
-1. Go to **site-packages** of your version of python (mine is here: /lib/python3.9/site-packages/).
+1. Go to **site-packages** of your version of python ( (mine is here: /lib/python3.9/site-packages/).
 2. Open the folder "rubikscubetracker"
 3. Open \__init\__.py
 4. Search for "kociemba_string"
