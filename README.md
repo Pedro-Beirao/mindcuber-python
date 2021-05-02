@@ -26,7 +26,7 @@ You will also need https://github.com/dwalton76/rubiks-color-resolver.
 
 ```
 
-#First download 
+#First download the code of this repo to your desktop (or wherever you want)
 
 $ pip install ev3_dc
 $ pip install kociemba
