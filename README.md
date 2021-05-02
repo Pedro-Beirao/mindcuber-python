@@ -80,7 +80,9 @@ $ python3 setup.py
   # Yep its the same if you are admin or not
 ```
 
-**Now just run:** `$ rubik.py `
+**To run the program:**
+
+`$ rubik.py `
 
 
 If it doesnt work, try the manual setup. 
