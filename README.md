@@ -25,7 +25,6 @@ Instead of using the color sensor of the ev3, It uses https://github.com/dwalton
 You will also need https://github.com/dwalton76/rubiks-color-resolver. 
 
 ```
-
 #First download the code of this repo to your desktop (or wherever you want)
 
 $ pip install ev3_dc
