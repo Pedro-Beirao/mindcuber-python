@@ -25,6 +25,9 @@ Instead of using the color sensor of the ev3, It uses https://github.com/dwalton
 You will also need https://github.com/dwalton76/rubiks-color-resolver. 
 
 ```
+
+#First download 
+
 $ pip install ev3_dc
 $ pip install kociemba
 
@@ -90,7 +93,6 @@ $ rubik.py
 If it doesnt work, try the manual setup. 
 
 Don't be afraid to open an *issue*.
-
 
 
 ## Manual setup (Uses this if automatic fails)
