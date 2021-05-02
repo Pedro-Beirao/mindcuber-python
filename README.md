@@ -82,7 +82,9 @@ $ python3 setup.py
 
 **To run the program:**
 
-`$ rubik.py `
+```
+$ rubik.py 
+```
 
 
 If it doesnt work, try the manual setup. 
