@@ -59,12 +59,13 @@ where mindcuber-python.py
 
 
 
-**To run the program:**
+**Run**
 
 ```
 $ rubik.py 
 ```
 
+The script were installed to your PATH, there is no need to call "python3"
 
 If it doesnt work, don't be afraid to open an *issue*.
 
@@ -76,5 +77,9 @@ ev3-dc : https://github.com/ChristophGaukel/ev3-python3
 
 kociemba : https://github.com/muodov/kociemba
 
+opencv : https://github.com/opencv/opencv-python
 
+rubiks-cube-tracker : https://github.com/dwalton76/rubiks-cube-tracker
+
+rubiks-color-resolver : https://github.com/dwalton76/rubiks-color-resolver
 
