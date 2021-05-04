@@ -19,22 +19,8 @@ See this to connect your pc with the ev3 (Bluetooh does not work for MacOS) - ht
 
 ## Installation
 
-This program uses a library called "ev3-dc" (https://pypi.org/project/ev3-dc/) and uses Kociemba (https://pypi.org/project/kociemba/). 
-
-Instead of using the color sensor of the ev3, It uses https://github.com/dwalton76/rubiks-cube-tracker to get the cubestring. This is faster and more reliable.
-You will also need https://github.com/dwalton76/rubiks-color-resolver. 
-
 ```
-#First download the code of this repo to your desktop (or wherever you want)
-
-$ pip install ev3_dc
-$ pip install kociemba
-
-$ pip install python-opencv
-  # ^^^ rubiks-cube-tracker uses opencv
-  
-$ pip install git+https://github.com/dwalton76/rubiks-cube-tracker.git
-$ pip install git+https://github.com/dwalton76/rubiks-color-resolver.git
+$ pip install git+https://github.com/PBeGood4/mindcuber-python
 ```
 
  
