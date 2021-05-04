@@ -26,7 +26,23 @@ $ pip install git+https://github.com/PBeGood4/mindcuber-python
 
 ## Setup
 
-**Open 'mindcuber-python.py', go to `ev3Device = ev3.EV3(protocol=ev3.USB, host='00:16:53:3D:F8:DF')`**
+**Open mindcuber-python**
+
+To find this file:
+
+### MacOS / Linux
+
+```
+which mindcuber-python.py
+```
+
+### Windows
+
+```
+where mindcuber-python.py
+```
+
+**Go to `ev3Device = ev3.EV3(protocol=ev3.USB, host='00:16:53:3D:F8:DF')`**
 
 **Change `ev3.USB` To the protocol you want: `ev3.USB`, `ev3.BLUETOOTH` or `ev3.WIFI`** (I strongly recommend USB)
 
