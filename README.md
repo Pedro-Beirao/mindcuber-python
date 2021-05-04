@@ -82,4 +82,4 @@ opencv : https://github.com/opencv/opencv-python
 rubiks-cube-tracker : https://github.com/dwalton76/rubiks-cube-tracker
 
 rubiks-color-resolver : https://github.com/dwalton76/rubiks-color-resolver
-
+```
