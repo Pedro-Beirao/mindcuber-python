@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 with open("README.md", "r") as readme_file:
     readme = readme_file.read()
 
-requirements = ["ev3_dc","kociemba","opencv-python","rubikscubetracker @ git+https://github.com/dwalton76/rubiks-cube-tracker","rubikscolorresolver @ git+https://github.com/dwalton76/rubiks-color-resolver"]
+requirements = ["ev3_dc","kociemba","rubikscubetracker @ git+https://github.com/dwalton76/rubiks-cube-tracker","rubikscolorresolver @ git+https://github.com/dwalton76/rubiks-color-resolver"]
 
 setup(
     name="mindcuber-python",
