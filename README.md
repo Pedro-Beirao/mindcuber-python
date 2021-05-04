@@ -14,8 +14,9 @@ See this to connect your pc with the ev3 (Bluetooh does not work for MacOS) - ht
 (I strongly recommend USB)
 ### Table of contents
 1. Installation
-2. Automatic setup
-3. Manual setup (Use this if automatic fails)
+2. Setup
+3. Run
+4. Manual install (Use this if automatic fails)
 
 ## Installation
 
@@ -23,9 +24,9 @@ See this to connect your pc with the ev3 (Bluetooh does not work for MacOS) - ht
 $ pip install git+https://github.com/PBeGood4/mindcuber-python
 ```
 
- 
+## Setup
 
-**Before setting up. Open 'mindcuber-python.py', go to `ev3Device = ev3.EV3(protocol=ev3.USB, host='00:16:53:3D:F8:DF')`**
+**Open 'mindcuber-python.py', go to `ev3Device = ev3.EV3(protocol=ev3.USB, host='00:16:53:3D:F8:DF')`**
 
 **Change `ev3.USB` To the protocol you want: `ev3.USB`, `ev3.BLUETOOTH` or `ev3.WIFI`** (I strongly recommend USB)
 
@@ -33,7 +34,7 @@ $ pip install git+https://github.com/PBeGood4/mindcuber-python
 
  
 
-## Automatic setup
+
 
 Instead of getting the cubestring by hand, use setup.py to automate it.
 
