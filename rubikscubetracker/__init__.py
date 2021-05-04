@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+#DISCLAIMER
+# This is the EXACT same script as the __init__.py that came with this package, 
+# but it redirects to mindcuber-python.py when if gets the colors of the cube
+
 """
 Given the following .png files in /tmp/
 
@@ -1960,6 +1964,9 @@ class RubiksVideo(RubiksOpenCV):
         window_width = width * 2
         window_height = height * 2
 
+        address = "https://192.168.1.21:8888/video"
+
+
         capture = cv2.VideoCapture(self.webcam)
 
         # Set the capture resolution
@@ -2135,10 +2142,8 @@ class RubiksVideo(RubiksOpenCV):
                     # print(kociemba_string)
 
                     import subprocess
-                    try:
-                        subprocess.Popen("mindcuber-python.py " + kociemba_string, shell=True)
-                    except:
-                        subprocess.Popen("python3 %homepath%/usr/local/bin/mindcuber-python.py " + kociemba_string, shell=True)
+
+                    subprocess.Popen("mindcuber-python.py " + kociemba_string, shell=True)
 
                     colormap = {}
                     for (side_name, data) in final_colors["sides"].items():
