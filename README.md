@@ -58,38 +58,8 @@ where mindcuber-python.py
 
 
 
-Instead of getting the cubestring by hand, use setup.py to automate it.
 
-Make sure that **setup.py, mindcuber-python.py, init.py** and **rubik.py** are in the same folder.
 
-**If you have admin/root privileges:**
-
-MacOS / Linux:
-```
-$ sudo python3 setup.py
-  #^^^ Instead of setup.py, write the full path of it
-```
-
-Windows:
-```
-$ python3 setup.py
-  #^^^ Instead of setup.py, write the full path of it
-```
-
-**If you DON'T have admin/root privileges:**
-
-MacOS / Linux:
-```
-$ python3 setup.py --user
-  #^^^ Instead of setup.py, write the full path of it
-```
-
-Windows:
-```
-$ python3 setup.py
-  #^^^ Instead of setup.py, write the full path of it
-  # Yep its the same if you are admin or not
-```
 
 **To run the program:**
 
