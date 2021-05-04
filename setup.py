@@ -16,7 +16,7 @@ setup(
     keywords="mindcuber python ev3 rubiks",
     url="https://github.com/PBeGood4/mindcuber-python/",
     scripts=["rubik.py","mindcuber-python.py"],
-    packages=[],
+    packages=["rubikscubetracker"],
     install_requires=requirements,
     classifiers=[
         "Programming Language :: Python :: 3.9",
