@@ -25,7 +25,7 @@ See this to connect your pc with the ev3 (Bluetooh does not work for MacOS) - ht
 $ pip install opencv-python
 
 $ pip install git+https://github.com/PBeGood4/mindcuber-python
- # This will install all dependecies (except the opencv, that one needs to be installed separatly
+ # This will install all dependecies (except the opencv, that one needs to be installed separatly)
 ```
 
 ## Setup
