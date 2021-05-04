@@ -26,7 +26,7 @@ $ pip install git+https://github.com/PBeGood4/mindcuber-python
 
 ## Setup
 
-**Open mindcuber-python**
+**Open mindcuber-python.py**
 
 To find this file:
 
