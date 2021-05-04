@@ -59,7 +59,7 @@ where mindcuber-python.py
 
 
 
-**Run**
+## Run
 
 ```
 $ rubik.py 
