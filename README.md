@@ -66,9 +66,7 @@ $ rubik.py
 ```
 
 
-If it doesnt work, try the manual setup. 
-
-Don't be afraid to open an *issue*.
+If it doesnt work, don't be afraid to open an *issue*.
 
 
 ## Dependecies
