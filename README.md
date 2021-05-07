@@ -65,7 +65,7 @@ where mindcuber-python.py
 $ rubik.py 
 ```
 
-The script were installed to your PATH, there is no need to call "python3"
+The scripts were installed to your PATH, there is no need to call "python3"
 
 If it doesnt work, don't be afraid to open an *issue*.
 
