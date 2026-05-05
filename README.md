@@ -3,9 +3,9 @@ A program written in python3 (3.9) that solves a Rubik's cube with a ev3 Mindsto
 
 Video: https://www.youtube.com/watch?v=Iczwq0FZBBg
 
-___
+Blog: https://pedro-beirao.eu/blog/mindcuber-python/
 
-Very easy to setup. Just follow the steps.
+___
 
 You need to build the mindcuber robot. The "MindCub3r-v1p0.pdf" file has the building instructions (You can also find them  at https://www.mindcuber.com).
 
